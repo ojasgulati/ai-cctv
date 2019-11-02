@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -19,4 +19,17 @@
 
 .App-link {
   color: #09d3ac;
+} */
+
+#videoElement {
+  width: 500px;
+  height: 375px;
+  background-color: #666;
+  border: 10px #333 solid;
+
+  left:200%;
+  top:50%;
+
+
+
 }
