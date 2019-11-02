@@ -24,7 +24,7 @@ class App extends React.Component {
         ]
       });
       let googleResponse = await fetch(
-        "https://vision.googleapis.com/v1/images:annotate?key=AIzaSyDNq70uDu_eTFEZm9-IndCgMZ4nWcbE-ME",
+        "https://vision.googleapis.com/v1/images:annotate?key=<KEY-HERE>",
         {
           headers: {
             Accept: "application/json",
