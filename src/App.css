@@ -20,16 +20,61 @@
 .App-link {
   color: #09d3ac;
 } */
+#root {
+  min-height: 100vh;
+  
+}
 
 #videoElement {
   width: 500px;
   height: 375px;
-  background-color: #666;
-  border: 10px #333 solid;
+  background-color: #ffffff;
+  border: 1px rgb(25, 203, 248) solid;  
+}
 
-  left:200%;
-  top:50%;
+#container {
+  background-color: #cfe8fc;
+  height: 100vh;
+  width: 100vw;
+}
 
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
 
+/* Control the left side */
+.left {
+  left: 0;
+}
 
+/* Control the right side */
+.right {
+  right: 0;
+}
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#capture-photo {
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  margin: 20px 0px;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card{
+  min-width: 40vw;
 }
